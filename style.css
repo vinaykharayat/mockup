@@ -1,0 +1,99 @@
+#main li{
+	background-color: gray;
+	display: inline;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	margin-right: -4px;
+}
+#main ul{
+	margin: 0px;
+	padding: 0px; 
+	background-color: #333333;
+	padding-right: 5px;
+}
+body{
+	margin: 0;
+	background-color: darkgray;
+}
+
+#html{
+	font-family: "arial";
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: super;
+}
+
+#logo-container{
+	padding: 20px;
+}
+#logo-container span{
+	color: orange;
+	font-size: 2.8em;
+	font-weight: bold;
+}
+#main{
+	background-color: gray;
+	display: flex;
+}
+#nav-container{
+	margin: -5px;
+}
+header{
+	background-color: #333333;
+	padding: 5px;
+	margin: 0;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: darkgray;
+	height: 100%;
+}
+
+#sidebar-nav li{
+	color: orange;
+	display: block;
+	margin: 20px;
+}
+
+#sidebar-container{
+	margin: 20px;
+}
+
+#blogpost-container{
+	width: 70%;
+	background-color: white;
+	padding: 10px 0;
+}
+
+.blogpost{
+	display: flex;
+	margin: 0px 20px;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.thumbnail{
+	align-items: center;
+	display: flex;
+	margin-right: 15px;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+.description{
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	background-color: #333333;
+	position: relative;
+	z-index: 1;
+}
